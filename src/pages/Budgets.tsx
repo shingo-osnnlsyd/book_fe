@@ -4,7 +4,7 @@ const Budgets = () => {
       <h1>Budgets graph</h1>
       <ul>
         <li>
-          <a href='/'>Ballance graph</a>
+          <a href='/ballance'>Ballance graph</a>
         </li>
         <li>
           <a href='/items'>Items list</a>
