@@ -49,12 +49,20 @@ const BookAppBar = () => {
       )
     } else {
       return (
-        <Button
-          href="/signin"
-          color="inherit"
-        >
-          ログイン
-        </Button>
+        <>
+          <Button
+            href="/signin"
+            color="inherit"
+          >
+            ログイン
+          </Button>
+          <Button
+            href="/signup"
+            color="inherit"
+          >
+            ユーザー登録
+          </Button>
+        </>
       )
     }
   }
